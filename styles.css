@@ -1,0 +1,237 @@
+div.container {
+	vertical-align: 
+    top: 50%;
+    left: 50%;
+    
+}
+
+
+#menu { 
+	  position: absolute; top: 50px; left: 0px;
+	  width: 50%; height: 10px;
+	  background-color: #6affed;
+	  box-shadow: 10px 10px 5px #888888;
+	  color: #f1fffd;
+	  font-size: 25px;
+	  font-family: 'Courgette', cursive;
+	  word-spacing: 5px;
+	  padding-bottom: 20px;
+	  padding-top: 1px;
+	  margin-left: 400px;
+	  margin-bottom: 20px;
+	  align-content: center;
+	  justify-content: center;
+	  display: flex;
+
+}
+
+
+/*Image Gallery From https://www.w3schools.com/css/css_image_gallery.asp*/
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
+
+
+div.img img {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+
+}
+/* Image Gallery Ends */
+/*label Cookie Counter begins */
+#lemonCtr {
+text-align: center;
+padding-left: 120px;
+}
+
+
+#chocCtr{
+text-align: center;
+padding-left: 120px;
+
+}
+
+#sugarCtr {
+text-align: center;
+padding-left: 120px;
+}
+
+
+
+
+
+/*
+#hr {
+colors link http://www.tayloredmktg.com/rgb/
+http://store.enhanceyourrooms.co.uk/product-colour-charts-pallets
+Hr resizing: https://www.w3schools.com/tags/att_hr_size.asp
+;
+width:5px; height: 10px;
+ 	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+*/
+
+.cookie {
+	width:304px;
+	height:228px;
+	margin-top: 100px;
+	padding-top: 100px;
+	padding-left: 50px;
+	align-content: center;
+	z-index: -1;
+	border-style: solid;
+    border-color: #6affed;;
+    border-width: 15px;
+    border-height: 20px;
+
+}
+p.cursive {
+	font-family: Florence, cursive;
+}
+
+#info {
+margin-top: 15px;
+padding-right:40px;
+padding-left: 40px;
+text-align: justify;
+text-justify: inter-word;
+font-family: 'Courgette', cursive;
+font-size: 25px;
+background-position: center bottom; 
+}
+
+#background-image {
+	url(src= "http://www.coldstonecreamery.com/assets/img/products/mixins/sprinkles.jpg");
+
+}
+
+#sprinkles {
+    width: auto;
+    height: auto;
+    position: relative;
+
+}
+
+#resetCountBtn {
+	width: 15%;
+	margin-top:100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	background-color: #6affed;
+	font-size: 27px;
+	font-family: 'Courgette', cursive;
+	word-spacing: 20px;
+	color: #f1fffd;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 25px;
+
+
+}
+
+
+  .choosecookie {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	font-family: 'Courgette', cursive;
+  	font-size: 60px;
+  	margin: 0;
+  }
+
+  #pinkcookie {
+  	text-shadow: 9px 0px #ff69b4;
+  }
+  #yellowcookie {
+  	text-shadow: 5px 0px #FDFD96;
+  }
+  #bluecookie {
+  	text-shadow: 15px 2px #6affed;
+  }
+
+ #form {
+ 	padding-left: 50px;
+ 	margin-left: 400px;
+ 	margin-bottom: 20px;
+ 	align-content: center;
+ 	height: 204px;
+ 	margin-top: 60px;
+
+    }
+
+#CookieWrapper {
+	position: relative;
+	width: 700px;
+	height:75px;
+	margin-bottom: 50px;
+}
+
+#footer {
+	position: absolute; 
+	width: 90%; height: 160px;
+	background-color: #6affed;
+	box-shadow: 10px 10px 5px #888888;
+	color: #f1fffd;
+	font-size: 25px;
+	font-family: 'Courgette', cursive;
+	line-height: 10%;
+	margin-top: 20px;
+	display: flex;
+  	columns: 100px 2;
+  	column-width: 7px;
+  	column-gap: 10px;
+
+
+}
+/*hr styling doesn't work
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+*/
+	/*
+	width:10%; height:198px; 
+	repeat-x;background:url('images/bg-img.png') 
+	http://vanseodesign.com/css/borders-rounded-corners/
+
+	height: 525px;
+    width: 525px;
+    top: 10px;
+	
+	border-radius: 10px;
+    border-width: 40px 80px;
+    border-image-width: 10px;
+    border-image-repeat: repeat;
+    border: 2px ;
+    top: 10px;
+    bottom: -5;
+    border-right: 10;
+    border-left:10;*/
+
+
