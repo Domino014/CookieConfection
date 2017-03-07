@@ -5,7 +5,9 @@ app.listen(process.env PORT || 3000, function(){  //3000 port is reserved for de
 	console.log("listening on 80 or 3000");
 });
 
-	
+/*Go to Homebrew https://brew.sh/ */
+/*Go to Heroku*/
+
 
 /*Go to terminal 
 npm init  to create package json
@@ -23,6 +25,13 @@ git init
 git status
 git add .
 git status
+git commit -m "prepping for heroku"
+git push heroku master
+heroku open
+ heroku ps:scale worker=1
+This is a command to check terminal
+heroku logs --tail
+
 */
 
 
